@@ -1,16 +1,12 @@
 /**
- * Prosta serverless function dla HubSpot
- * Testowe połączenie - weryfikacja że projekt działa
+ * Minimalna serverless function dla HubSpot (pojedyncza funkcja testowa)
  */
 
 exports.main = async (event, callback) => {
-  console.log('Hello World from HubSpot CSM App!');
-  
   callback({
     outputFields: {
-      message: 'HubSpot CSM App działa poprawnie!',
+      message: "Hello from minimal HubSpot project",
       timestamp: new Date().toISOString()
     }
   });
 };
-
