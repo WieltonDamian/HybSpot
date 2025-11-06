@@ -1,0 +1,6 @@
+{
+  "name": "hubspot-csm-app",
+  "version": "1.0.0",
+  "description": "HubSpot CSM App - rozbudowa funkcjonalności CSM",
+  "main": "src/serverless/hello-world.js"
+}
