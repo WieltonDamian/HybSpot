@@ -1,0 +1,8 @@
+# Ignoruj pliki, które nie są potrzebne dla HubSpot Projects
+client/
+node_modules/
+.git/
+.env
+*.md
+.github/
+
