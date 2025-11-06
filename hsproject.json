@@ -1,6 +1,5 @@
 {
   "name": "hubspot-csm-app",
   "srcDir": "server",
-  "platformVersion": "2025.2",
-  "components": []
+  "platformVersion": "2025.2"
 }
