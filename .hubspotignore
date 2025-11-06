@@ -1,4 +1,4 @@
-# Ignoruj pliki, które nie są potrzebne dla HubSpot Projects
+# Ignoruj wszystko co nie jest potrzebne dla HubSpot Projects
 client/
 server/
 node_modules/
@@ -10,3 +10,7 @@ node_modules/
 .gitattributes
 package-lock.json
 *.backup
+
+# Ignoruj wszystkie package.json oprócz root
+client/package.json
+server/package.json
