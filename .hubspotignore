@@ -1,5 +1,6 @@
-# Ignoruj wszystko co nie jest potrzebne dla HubSpot Projects
+# Ignoruj pliki, które nie są potrzebne dla HubSpot Projects
 client/
+server/
 node_modules/
 .git/
 .env
@@ -8,3 +9,4 @@ node_modules/
 .gitignore
 .gitattributes
 package-lock.json
+*.backup
