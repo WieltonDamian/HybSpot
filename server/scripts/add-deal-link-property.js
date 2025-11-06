@@ -47,7 +47,7 @@ async function createDealLinkProperty() {
     description: 'Link do dokumentu Drzewo produktów - sprawdź przed utworzeniem transakcji',
     formField: true,
     showCurrencySymbol: false,
-    groupName: 'deal_information',
+    // Usuwamy groupName - HubSpot użyje domyślnej grupy
   };
 
   console.log('Tworzenie właściwości dla dealów...');
@@ -87,10 +87,10 @@ async function createDealUrlProperty() {
     name: 'drzewo_produktow',
     label: 'Drzewo produktów - sprawdź',
     type: 'string',
-    fieldType: 'url',
+    fieldType: 'text',
     description: 'Link do dokumentu Drzewo produktów',
     formField: true,
-    groupName: 'deal_information',
+    // Usuwamy groupName - HubSpot użyje domyślnej grupy
   };
 
   const result = await hubspotRequest(
