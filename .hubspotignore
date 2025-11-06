@@ -1,16 +1,9 @@
-# Ignoruj wszystko co nie jest potrzebne dla HubSpot Projects
-client/
-server/
 node_modules/
-.git/
+client/
+client/build/
+server/
 .env
-*.md
-.github/
-.gitignore
-.gitattributes
-package-lock.json
-*.backup
-
-# Ignoruj wszystkie package.json oprócz root
+*.log
+.DS_Store
 client/package.json
 server/package.json
