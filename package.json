@@ -1,6 +1,6 @@
 {
-  "name": "hubspot-csm-app",
+  "name": "csm-wielton",
   "version": "1.0.0",
-  "description": "HubSpot CSM App - rozbudowa funkcjonalności CSM",
+  "description": "HubSpot CSM App - rozbudowa funkcjonalności CSM dla Wielton SA",
   "main": "src/serverless/hello-world.js"
 }
