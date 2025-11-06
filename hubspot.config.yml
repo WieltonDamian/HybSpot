@@ -1,0 +1,16 @@
+# HubSpot Project Configuration
+# Ten plik pomaga HubSpot zidentyfikować projekt
+
+name: hubspot-csm-app
+version: 1.0.0
+description: Aplikacja do rozbudowy funkcjonalności CSM w HubSpot
+
+# Struktura projektu
+src: server
+dest: dist
+
+# Konfiguracja dla różnych środowisk
+environments:
+  production:
+    portalId: 146835084
+

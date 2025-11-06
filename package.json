@@ -1,0 +1,33 @@
+{
+  "name": "hubspot-csm-app",
+  "version": "1.0.0",
+  "description": "Aplikacja do rozbudowy funkcjonalności CSM w HubSpot",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "keywords": [
+    "hubspot",
+    "csm",
+    "customer-success",
+    "react",
+    "nodejs"
+  ],
+  "author": "Wielton SA",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "concurrently": "^8.2.2"
+  }
+}
+
